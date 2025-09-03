@@ -1,49 +1,103 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
+I am currently a teacher-scholar and postdoctoral researcher working with [Prof. Jianping Pan](https://webhome.cs.uvic.ca/~pan/) in the Department of Computer Science at the University of Victoria, where I also received my PhD in Electrical and Computer Engineering under the supervision of [Prof. Lin Cai](https://www.ece.uvic.ca/~cai/) in 2024.
+
+
+
+My Research [\[Publications\]](/publications/)
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My past research work aimed at addressing critical challenges in the future Internet ecosystem dominated by mobile entities including users, vehicles, satellites, and UAVs. My work centers on fulfilling stringent quality of service (QoS) requirements for diverse communication applications through powerful AI tools, innovative network architecture design, multipath transport protocols, mobility management, satellite networks, multimedia systems, etc. See the project website at [here](https://onlineacademiccommunity.uvic.ca/quic/).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My current research focus is distributed machine learning systems, aiming to build efficient systems of training and inference of deep neural networks.
 
-Getting started
+
+
+Teaching
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
+
+**Instructor at UVic**
+- *2025 Fall: Introduction to Operating Systems (CSC360)*   
+- *2025 Spring: Communication Networks (ECE363)*  
+
+**Guest Lecturer at UVic**
+- *2023 Fall: Design and Analysis of Computer Networks (ECE463/ECE514)*  
+
+**Teaching Assistant at UVic**  
+- *Communication Networks (ECE458)*, 2020, 2021, 2022, and 2023  
+- *Computer Architecture (ECE255)*, 2021, 2022, and 2024  
+- *Computer Networks (CSC361)*, 2020  
+- *Artificial Intelligence (ECE470/569A)*, 2020
+- *Communication Theory & Systems (ECE350)*, 2020  
+
+<!-- **Lecturer**, HNNU | 2018 -- 2019  
+- *C Programming*  
+  Being responsible for lecturing about basic C programming knowledge and instructing students to finish the hands-on programming tasks during laboratory sessions.   -->
+
+<!-- **Mentoring** | 2021 -- present  
+- *Students at UVic*: Since 2021, I have mentored students at various levels at UVic, including MITACS-funded undergraduates, master's students, and junior PhD in our research lab. My guidance has led to prestigious publications, well-cited open-source testbeds, and significant career advancements for my mentees.  
+- *Students at HNNU*: In 2024, I was appointed as an outside advisor to mentor four master's students at HNNU on a provincial research project focused on networked systems for accelerating distributed AI training, with several papers currently under submission.   -->
+
+
+Selected Honors and Awards
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- **2025**: **Nominated for ECSS Excellence in Teaching Award**  
+- **2025**: **UVic Computer Science Teacher-Scholar Fellowship** <!--, awarded to one of the top candidates through a rigorous selection process—overcoming the typical competitive disadvantage faced by UVic graduates—in recognition of outstanding teaching excellence and groundbreaking research contributions.   -->
+- **2025**: **Governor General's Gold Medal Nominee** <!--. My PhD thesis was nominated as the sole candidate by our department for this distinguished award. (Final results pending.)   -->
+- **2025**: **Bronze Medal of the 2024 China International Innovation Competition**
+<!-- , standing out among more than 11,000 research teams worldwide. This recognition highlights the innovative contribution and significant impact of my PhD dissertation.   -->
+- **2024**: **Gold Award Winner** of the Storytelling Competition held by IEEE Vehicular Technology Society  
+- **2023**: **Best Presentation Award** at the FUN 2023 workshop by IEEE VT & Com Joint Societies   
+- **2022**: **The Charles S. Humphrey Graduate Award** by UVic
+<!-- : each department annually nominates only one student and the award is given by UVic to the student in recognition of outstanding academic record and demonstrated leadership.   -->
+- **2022**: **ComSoc Student Travel Grant** for IEEE Globecom'22: <!-- awarded by IEEE Globecom conference committee in recognition of appealing presentation and outstanding academic record.   -->
+- **2021**: **2020 UVic EE/CS Networks Leadership Awards**
+<!-- : annually elected 2 members (out of 25–30) in the Communication Networks Lab (CNLAB) & Protocols for Advanced Networking Laboratory (PANLAB) in UVic for their demonstrated leadership and dedicated volunteering service.   -->
+- **2019–2023**: **Awarded by Chinese Scholarship Council (CSC)**
+<!-- : awarded by the Chinese Scholarship Council (CSC) to domestic students who pursue the Ph.D. degree abroad. **[Acceptance rate 28%]**   -->
+- **2019**: **Provincial Outstanding Graduate Award** in Hunan province of China
+<!-- : each university in Hunan province of China nominates only 2 candidates and the award is given by the Provincial Education Department in recognition of outstanding academic record and promising future.   -->
+- **2018**: **National Scholarship**
+<!-- : each department in HNNU nominates only 2 candidates and the award is given by the Ministry of Education in China.   -->
+- **2018**: **Best Paper Award Winner at IEEE ICCCS 2018**
+ <!-- among 1743 paper submissions.   -->
+<!-- - **2018**: **The First Prize Scholarship** -->
+<!-- : awarded by HNNU to students within their department whose GPA ranks in the top 3.   -->
 
-Create content & metadata
+
+Professional Activities
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Program Committee** of High Performance Computing and Communications (HPCC) | 2025  
+**TPC Member** in 2024 IEEE International Conference on Dependability in Sensor, Cloud & Big Data Systems & Applications (DependSys) | 2024  
+**Student Volunteer** in IEEE INFOCOM'24 | 2024  
+**Session Chair** in IEEE MSN'21 | 2021  
+**Coordinator** in a research project collaborated with industrial partners from Huawei Technologies Canada Co., Ltd. | 2019 -- present   
+**Volunteer** experience with IEEE VTS/ComSoc Joint Chapter, Victoria Section:  
+- Organized a recruitment event aimed at inviting new student members to join IEEE VTS/ComSoc society in December 2021.  
+- Organized a ceremony to announce the winners of a video presentation contest in June 2022.  
+- Provided volunteer support for the Future Ubiquitous Networks (FUN) workshop 2023-Spring poster competition.  
+- Volunteered for the Ad Hoc Committee on Space-Air-Ground-Water Integrated Communication Systems, starting in September 2023.  
 
-**Markdown generator**
+**Reviewers** for journals, magazines, and conferences in the field, including: | 2019 -- Present  
+- IEEE INFOCOM  
+- IEEE International Conference on Computer Communications  
+- IEEE/ACM Transactions on Networking  
+- IEEE Transactions on Communications  
+- IEEE Internet of Things Journal  
+- IEEE Transactions on Vehicular Technology  
+- IEEE Communications Magazine  
+- IEEE Network Magazine  
+- Journal of Circuits, Systems and Computers  
+- International Journal of Communication Systems  
+- Wireless Networks  
+- IEEE Access  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.

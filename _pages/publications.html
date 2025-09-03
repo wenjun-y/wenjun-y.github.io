@@ -5,32 +5,91 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Journals</h2>
+<ul>
+  <li><strong>W. Yang</strong>, L. Cai, S. Shu, J. Pan and A. Sepahi, 
+  "MAMS: Mobility-aware multipath scheduler for MPQUIC." 
+  <em>IEEE/ACM Transactions on Networking</em>, vol. 32, no. 4, pp. 3237–3252, 2024.</li>
 
-{% include base_path %}
+  <li><strong>W. Yang</strong>, L. Cai, S. Shu and J. Pan, 
+  "Mobility-aware congestion control design for multipath QUIC in integrated terrestrial satellite networks." 
+  <em>IEEE Transactions on Mobile Computing</em>, vol. 23, no. 4, pp. 11620–11634, 2024.</li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <li><strong>W. Yang</strong>, L. Cai, S. Shu, J. Pan and Z. Huang, 
+  "QoS-driven contextual MAB for MPQUIC supporting video streaming in mobile networks." 
+  <em>IEEE Transactions on Mobile Computing</em>, 2024.</li>
 
+  <li>A. Sepahi, L. Cai, <strong>W. Yang</strong>, J. Pan, 
+  "LiveStream Meta-DAMS: Multipath scheduler using hybrid Meta reinforcement learning for live video streaming." 
+  <em>IEEE Transactions on Cognitive Communications and Networking</em>, 2024. 
+  <em>(accepted in November)</em></li>
 
+  <li>L. Cai, J. Pan, <strong>W. Yang</strong>, X. Ren and X. Shen, 
+  "Self-evolving and transformative (SET) protocol architecture for 6G." 
+  <em>IEEE Wireless Communications Magazine</em>, vol. 30, no. 4, pp. 178–186, 2023.</li>
 
+  <li>P. Dong, R. Shen, Q. Wang, D. Zhang, Y. Li, Y. Zuo, <strong>W. Yang</strong>, and L. Zhang, 
+  "Multipath TCP meets reinforcement learning: A novel energy-efficient scheduling approach in heterogeneous wireless networks." 
+  <em>IEEE Wireless Communications</em>, vol. 30, no. 2, pp. 138–146, 2022.</li>
+
+  <li><strong>W. Yang</strong>, P. Dong, L. Cai, and W. Tang, 
+  "Loss-aware throughput estimation scheduler for multi-path TCP in heterogeneous wireless networks." 
+  <em>IEEE Transactions on Wireless Communications</em>, vol. 20, no. 5, pp. 3336–3349, 2021.</li>
+
+  <li>W. Cui, C. Liu, <strong>W. Yang</strong>, and L. Cai, 
+  "I-Talk: Reliable and practical superimposed signal decoding without power control." 
+  <em>IEEE Transactions on Wireless Communications</em>, vol. 20, no. 7, pp. 4269–4281, 2021.</li>
+
+  <li>W. Tang, Y. Fu, P. Dong, <strong>W. Yang</strong>, et al. 
+  "An MPTCP scheduler combined with congestion control for short flow delivery in signal transmission." 
+  <em>IEEE Access</em>, vol. 7, pp. 116195–116206, 2019.</li>
+
+  <li><strong>W. Yang</strong>, P. Dong, W. Tang, et al. 
+  "An MPTCP scheduler for web transfer." 
+  <em>Computers, Materials &amp; Continua</em>, vol. 57, no. 2, pp. 205–222, 2018.</li>
+
+  <li>P. Dong, <strong>W. Yang</strong>, W. Tang, et al. 
+  "Reducing transport latency for short flows with multipath TCP." 
+  <em>Journal of Network and Computer Applications</em>, vol. 108, pp. 20–36, 2018.</li>
+
+  <li>P. Dong, <strong>W. Yang</strong>, K. Xue, et al. 
+  "Tuning the aggressive slow-start behavior of MPTCP for short flows." 
+  <em>IEEE Access</em>, vol. 7, pp. 6010–6024, 2018.</li>
+</ul>
+
+<h2>Conferences</h2>
+<ul>
+  <!-- <li><strong>W. Yang</strong>, L. He, J. Pan, L. Cai and W. Tang, 
+  "StreamMoE: Dual-Stream Pipelining for Accelerated Distributed MoE Training." 
+  <em>submitted to IEEE INFOCOM'26</em>.</li> -->
+
+  <li>J. Tian, <strong>W. Yang</strong> and L. Cai, 
+  "Attention-based spatiotemporal model for RTT prediction in LEO satellite networks." 
+  <em>IEEE International Conference on Communications</em>, Montreal, Canada, 2025. 
+  <em>(to appear)</em></li>
+
+  <li>A. Sepahi, L. Cai, <strong>W. Yang</strong> and J. Pan, 
+  "Meta-DAMS: Delay-aware multipath scheduler using hybrid meta reinforcement learning." 
+  <em>Proc. IEEE VTC-Fall</em>, Hong Kong, 2023, pp. 1–5.</li>
+
+  <li>S. Shu, <strong>W. Yang</strong>, J. Pan and L. Cai, 
+  "A Multipath extension to the QUIC module for ns-3." 
+  <em>Proc. 2023 Workshop on ns-3</em>, Washington, USA, 2023, pp. 86–93.</li>
+
+  <li><strong>W. Yang</strong>, L. Cai, S. Shu, and J. Pan, 
+  "Scheduler design for mobility-aware multipath QUIC." 
+  <em>Proc. IEEE Globecom</em>, Rio de Janeiro, Brazil, Dec. 2022, pp. 2849–2854.</li>
+
+  <li><strong>W. Yang</strong>, S. Shu, L. Cai, and J. Pan, 
+  "MM-QUIC: Mobility-aware multipath QUIC for satellite networks." 
+  <em>Proc. IEEE 17th Int. Conf. on Mobility, Sensing and Networking (MSN)</em>, Exeter, UK, Dec. 2021, pp. 608–615.</li>
+
+  <li><strong>W. Yang</strong>, P. Dong, W. Tang, et al. 
+  "An MPTCP scheduler for web transfer." 
+  <em>Proc. IEEE Int. Conf. on Computer, Communication, and Security (ICCCS)</em>, Haikou, China, June 2018. 
+  <strong>[Best Paper Award]</strong></li>
+
+  <li>C. Ling, W. Tang, P. Dong, <strong>W. Yang</strong>, et al. 
+  "Blocking time-based MPTCP scheduler for heterogeneous networks." 
+  <em>Proc. IEEE Int. Conf. on Computer, Communication, and Security (ICCCS)</em>, Haikou, China, June 2018, pp. 364–375.</li>
+</ul>
