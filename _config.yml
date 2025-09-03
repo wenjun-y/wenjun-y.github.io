@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenjun Yang"
   pronouns         : # example: "she/her"  
-  bio              : "Post Doctoral Fellow & Teacher Scholar at Department of Computer Science, University of Victoria, Canada."
+  bio              : #"Post Doctoral Fellow & Teacher Scholar at Department of Computer Science, University of Victoria, Canada."
   location         : "Victoria, BC, Canada"
   employer         : "University of Victoria"
   uri              : # URL
