@@ -1,0 +1,105 @@
+\chapter{Lab 2: Ethernet and IEEE 802.11}\label{Lab2}
+
+\section{Objective}
+%List objectives of the lab
+\noindent  In this lab, we will investigate the link layer protocols, including the Ethernet and IEEE 802.11. The first part of this lab is mainly about the Ethernet frame format. The second part of the lab focuses on analyzing IEEE 802.11 frames.
+
+\section{Introduction}
+%Introduce the theory behind what we are going to be doing in the lab
+\subsection{Ethernet}
+\noindent  Ethernet stations communicate by sending each other data frames. As with other IEEE 802 LANs, each Ethernet station is given a single 48-bit MAC address, which is used to specify the destination and the source of each data frame. Network interface cards~(NICs) or chips normally do not accept frames addressed to other Ethernet stations. Adapters are generally programmed with a globally unique MAC address, but this can be overridden, either to avoid an address change when an adapter is replaced, or to use locally administered addresses.\\
+
+\noindent All generations of Ethernet~(except very early experimental versions) share the same frame formats~(and hence the same interface for higher layers), and can be readily~(and in most cases, cheaply) interconnected.\\
+
+\noindent Due to the ubiquity of Ethernet, the ever-decreasing hardware cost of it, and the reduced panel space needed by twisted pair Ethernet, most manufacturers now build the functionality of an Ethernet card directly into PC motherboards, eliminating the need for installation of a separate network card.
+
+\subsection{IEEE 802.11}
+In this part, we are going to explore the link layer, and management functions of 802.11. Generally speaking, there are three types 802.11 frames, the Data frame~(Type 2), the Control frame~(Type 1), and the Management frame~(Type 0). For each type of frame, there are also different subtypes. Typically, Data frame is the longest, which can be up to 1500 bytes, while Management frames are much shorter, and Control frames are very short. As the Data and Control frames have been illustrated in the text book, here we introduce some important types of Management frames.
+
+\begin{itemize}
+\item \textbf{Beacon frame} Beacon frames are sent out periodically by an AP to advertise its existence and capabilities to nearby computers. Beacon is an IEEE 802.11 wireless LAN Management frame. In a Beacon frame, there are a series parameters, including the SSID name of the AP, the data rates it supports, and the channel on which it is operating. 
+
+\item \textbf{Association} A computer has to associate with the AP after it learned an AP via a Beacon or otherwise and before it can send or receive data from the AP. Possibly, authentication process will be involved during the association. If the Association Request is successful received by AP, the AP will return an Association Response, and then the computer will acknowledge the association response. The Association Request and Response carry information that describes the capabilities of the AP and computer. Thus, both endpoints can know the other's abilities.
+
+\item \textbf{Probe Request/Response} In addition to find AP by waiting to learn about an AP from Beacons, a computer may also probe for specific APs. A Probe Request is sent by a computer to test whether an AP with a specific SSID is nearby. If the AP is nearby, it will reply with a Probe Response. Like Beacon and Association frames, each of these frames carries information describing the capabilities of the computer and AP. 
+\end{itemize}
+
+\section{Procedures}
+%List procedures of the lab
+\subsection{Analyzing Ethernet frames}\label{Pro_Ethernet}
+\begin{itemize}
+\item Download and open the trace named ``ethernet-trace-1''.
+
+%\item Because we are interested in Ethernet, we need not to consider any IP or higher layer protocols. Change WireShark's settings so that it shows information only about protocols below IP: select \textbf{\textsl{Analyze}} $\Rightarrow$ Enabled Protocols and unchecked ``IP''. The resulting figure should look like Figure~\ref{Lab2_fig_1}.
+
+\item Find the HTTP GET message that was sent from the web browser to \url{gaia.cs.umass.edu}~(should be packet No.10) and answer question~(1)-(4) in section~\ref{Dis_Ethernet}.
+
+\item Find the Ethernet frame containing the first byte of the HTTP response message and answer question~(5)-(8) in section~\ref{Dis_Ethernet}.
+\end{itemize}
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.9\columnwidth]{Lab2_fig_1}
+%\caption{Screen shot of WireShark}\label{Lab2_fig_1}
+%\end{figure}
+
+\subsection{Exploring IEEE 802.11 functions}\label{Pro_WLAN}
+\begin{itemize}
+
+\item Download and open the trace named ``wlan-trace-1''~\cite{Tanenbaum10}. Note that it may be difficult to gather your own trace using windows system. The main issue is that Windows system made 802.11 frames appear to come via a wired Ethernet. However, it is possible to use Mac or Linux to gather 802.11 frames directly, without this conversion.
+
+\item Select a Data packet. The packet detail can show four layers information: 1)~Frame, which is a record added by Wireshark with information about the time and length of the frame; 2)~Radiotap, which is also a record of captured physical layer parameters, such as the strength of the signal and the modulation; 3)~IEEE 802.11, which is the bits of the 802.11 Data frame;4)~Data, which is a record containing the frame payload data. Answer the related questions in section~\ref{Dis_WLAN}. 
+
+\item Inspect different packets to see the values for different types of frames. You can use filter to see only one type frames by entering the expression “wlan.fc.type$==$n” into the Filter box above the list of frames in the top panel. For example, "n=2" is for data frames, "n=1" is for control frames, and "n=0" is for management frames. Answer the related questions in section~\ref{Dis_WLAN}. 
+
+\item Inspect the packet transmission reliability. Use filter expressions to find the number of Data frames that are originals and retransmissions. For example, “wlan.fc.type$==$2 $\&\&$ wlan.fc.retry$==$0” will find original Data frames. Answer the related questions in section~\ref{Dis_WLAN}. 
+
+\item Inspect the Management frame. Use filter to help you find these frame, and answer the related questions in section~\ref{Dis_WLAN}. 
+\end{itemize}
+
+\section{Discussion}
+
+\subsection{Analyzing Ethernet frames}\label{Dis_Ethernet}
+\noindent For trace file ``ethernet-trace-1'', answer the following questions.
+\begin{enumerate}
+\item What is the 48-bit Ethernet address of the client computer?
+
+\item What is the 48-bit destination address in the Ethernet frame? Is this the Ethernet address of \url{gaia.cs.umass.edu}? Which device has this as its Ethernet address?
+
+\item Give the hexadecimal value for the two-byte Frame type field.
+
+\item What is the value of the Ethernet source address? Is this the address of your computer, or of \url{gaia.cs.umass.edu} Which device has this as its Ethernet address?
+
+\item What is the destination address in the Ethernet frame? Is this supposed to be the Ethernet address of the computer you are using?
+
+\item Find the hexadecimal value for the two-byte Frame type field.
+
+\end{enumerate}
+
+\subsection{Exploring IEEE 802.11 functions}\label{Dis_WLAN}
+
+\noindent Answer the following questions based on the trace file
+``wlan-trace-1''.
+
+\begin{enumerate}
+
+\item Which AP is the most active one (i.e., the one sends most Beacon messages)? what is its BSS ID? 
+
+\item How many Data frames are in the trace, how many subtypes, and what is the most common subtype of Data frame?
+
+\item How many subtypes of Control frames are in the trace, what are they? and what is the most common subtype?
+
+\item How many subtype of Management frames are in the trace, what are they and what is the most common subtype?
+
+\item Please estimate the retransmission rate as the number of retransmissions (i.e., the total number of transmission - number of original frames) over the number of original transmissions. Show your calculation.
+
+\item What are the Type and Subtype values for the Association Request/Association Response frames, the Probe Request/Probe Response frames?
+
+\end{enumerate}
+
+%\begin{thebibliography}{99}
+%\bibitem{umass} Ethereal Labs,
+%  http://www-net.cs.umass.edu/ethereal-labs
+%\bibitem{wiki}Wikipedia.org, http://en.wikipedia.org/wiki/HTTP
+%\end{thebibliography}
+

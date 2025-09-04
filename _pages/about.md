@@ -26,7 +26,7 @@ Teaching
 
 **Instructor at UVic**
 - *2025 Fall: Introduction to Operating Systems (CSC360)*   
-- *2025 Spring: Communication Networks (ECE363)*  
+- *2025 Spring: [Communication Networks (ECE363)](/ece363/)*  
 
 **Guest Lecturer at UVic**
 - *2023 Fall: Design and Analysis of Computer Networks (ECE463/ECE514)*  
@@ -54,7 +54,7 @@ Selected Honors and Awards
 - **2025**: **Governor General's Gold Medal Nominee** <!--. My PhD thesis was nominated as the sole candidate by our department for this distinguished award. (Final results pending.)   -->
 - **2025**: **Bronze Medal of the 2024 China International Innovation Competition**
 <!-- , standing out among more than 11,000 research teams worldwide. This recognition highlights the innovative contribution and significant impact of my PhD dissertation.   -->
-- **2024**: **Gold Award Winner** of the Storytelling Competition held by IEEE Vehicular Technology Society  
+- **2024**: **Gold Award Winner** of the Storytelling Competition held by IEEE Vehicular Technology Society [link](https://vtsociety.org/membership/tales-tomorrow-future-mobile-radio-and-vehicular-technologies-storytelling-competition/winners) 
 - **2023**: **Best Presentation Award** at the FUN 2023 workshop by IEEE VT & Com Joint Societies   
 - **2022**: **The Charles S. Humphrey Graduate Award** by UVic
 <!-- : each department annually nominates only one student and the award is given by UVic to the student in recognition of outstanding academic record and demonstrated leadership.   -->
