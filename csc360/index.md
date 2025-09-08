@@ -42,6 +42,11 @@ Fall 2025</b></p>
 
 **Office Hours:** MR 10:15am – 11:15am, or by appointment.
 
+**TAs:**
+- Jinwei (Clark) Zhao (clarkzjw at uvic dot ca)
+- Quanwei Zhang (quanweizhang at uvic dot ca)
+- Johnathan Warawa (johnnyw3 at uvic dot ca)
+
 **Lectures:**
 * (A01/2) MR 8:30–9:50am, DSB C118
 * (A03/4) 11:30am–12:50pm, CLE A224
