@@ -51,7 +51,7 @@ Fall 2025</b></p>
 * (A01/2) MR 8:30–9:50am, DSB C118
 * (A03/4) 11:30am–12:50pm, CLE A224
 
-[Lecture Schedule and Notes](360-schedule.html)
+[Tentative Lecture Schedule and Notes](360-schedule.html)
 
 **Tutorials:**
 * (T01) T 8:30–9:20am, MAC D115
