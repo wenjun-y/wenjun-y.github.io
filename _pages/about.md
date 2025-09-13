@@ -50,6 +50,8 @@ Teaching
 
 Selected Honors and Awards
 ------
+- **2025**: **First Prize Award** in the IEEE Young Professionals Victoria 3-minute thesis (3MT) competition
+<!-- [certificate](/awards/3MT-award 2025.pdf) -->
 - **2025**: **Nominated for ECSS Excellence in Teaching Award**  
 - **2025**: **UVic Computer Science Teacher-Scholar Fellowship** <!--, awarded to one of the top candidates through a rigorous selection process—overcoming the typical competitive disadvantage faced by UVic graduates—in recognition of outstanding teaching excellence and groundbreaking research contributions.   -->
 - **2025**: **Governor General's Gold Medal Nominee** <!--. My PhD thesis was nominated as the sole candidate by our department for this distinguished award. (Final results pending.)   -->
