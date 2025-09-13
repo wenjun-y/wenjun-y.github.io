@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "About Me"
 visible: true
 author_profile: true
 redirect_from: 
