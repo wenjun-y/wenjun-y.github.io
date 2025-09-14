@@ -31,6 +31,7 @@ Fall 2025</b></p>
 <p style="text-align: center; color: red; font-weight: bold; font-size: 28px;">Note: This website is still under construction and will keep updating.</p>
 
 ---
+**Course Outline:** [here](https://course-outlines.uvic.ca/ban/course-outlines/public-outline?banner_term=202509&subject=CSC&course_number=360)
 
 **Overview:** Introduction to Operating Systems; Operating system structures; Concurrent processes and programming; CPU scheduling; Deadlock; Memory management and virtual memory; File systems and storage management.
 
@@ -57,6 +58,7 @@ Fall 2025</b></p>
 * (T01) T 8:30–9:20am, MAC D115
 * (T02) W 1:30–2:20pm, COR B129
 * (T03) W 11:30am–12:20pm, DSB C118
+
 
 <br>
 
