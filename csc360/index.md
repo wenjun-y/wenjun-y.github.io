@@ -28,7 +28,7 @@ layout: none
 <p style="text-align: center;"> <b>University of Victoria <br>
 Fall 2025</b></p>
 
-<p style="text-align: center; color: red; font-weight: bold; font-size: 28px;">Note: This website is still under construction and will keep updating.</p>
+[//]<p style="text-align: center; color: red; font-weight: bold; font-size: 28px;">Note: This website is still under construction and will keep updating.</p>
 
 ---
 **Course Outline:** [here](https://course-outlines.uvic.ca/ban/course-outlines/public-outline?banner_term=202509&subject=CSC&course_number=360)
