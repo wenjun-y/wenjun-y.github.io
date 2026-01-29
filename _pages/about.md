@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am currently a teacher-scholar and postdoctoral researcher working with [Prof. Jianping Pan](https://webhome.cs.uvic.ca/~pan/) in the Department of Computer Science at the University of Victoria, where I also received my PhD in Electrical and Computer Engineering under the supervision of [Prof. Lin Cai](https://www.ece.uvic.ca/~cai/) in 2024.
+I am currently a teacher-scholar and postdoctoral researcher working with [Prof. Jianping Pan](https://webhome.cs.uvic.ca/~pan/) in the Department of Computer Science at the University of Victoria (UVic), where I also received my PhD in Electrical and Computer Engineering under the supervision of [Prof. Lin Cai](https://www.ece.uvic.ca/~cai/) in 2024.
 
 
 
