@@ -82,7 +82,7 @@ Professional Activities
 **TPC Member** in 2024 IEEE International Conference on Dependability in Sensor, Cloud & Big Data Systems & Applications (DependSys) | 2024  
 **Student Volunteer** in IEEE INFOCOM'24 | 2024  
 **Session Chair** in IEEE MSN'21 | 2021  
-**Coordinator** in a research project collaborated with industrial partners from Huawei Technologies Canada Co., Ltd. | 2019 -- present   
+**Coordinator** in a research project collaborated with industrial partners from Huawei Technologies Canada Co., Ltd. | 2020 -- 2023   
 **Volunteer** experience with IEEE VTS/ComSoc Joint Chapter, Victoria Section:  
 - Organized a recruitment event aimed at inviting new student members to join IEEE VTS/ComSoc society in December 2021.  
 - Organized a ceremony to announce the winners of a video presentation contest in June 2022.  
