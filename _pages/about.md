@@ -26,11 +26,12 @@ Teaching
 
 
 **Instructor at UVic**
+- *2025 Fall: Introduction to Operating Systems (CSC360)*   
+- *2025 Spring: Communication Networks (ECE363)*  
+
 <!-- - *2025 Fall: [Introduction to Operating Systems (CSC360)](/csc360/)*   
 - *2025 Spring: [Communication Networks (ECE363)](/ece363/)*   -->
 
-- *2025 Fall: Introduction to Operating Systems (CSC360)*   
-- *2025 Spring: Communication Networks (ECE363)*  
 
 **Guest Lecturer at UVic**
 - *2023 Fall: Design and Analysis of Computer Networks (ECE463/ECE514)*  
