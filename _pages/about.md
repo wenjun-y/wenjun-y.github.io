@@ -26,7 +26,9 @@ Teaching
 
 
 **Instructor at UVic**
-- *2025 Fall: Introduction to Operating Systems (CSC360)*   
+- *2026 Summer: [Operating Systems (CSC360)](/csc360/)*   
+- *2026 Summer: [Computer Communications and Networks (CSC361)](/csc361/)*   
+- *2025 Fall: Operating Systems (CSC360)*   
 - *2025 Spring: Communication Networks (ECE363)*  
 
 <!-- - *2025 Fall: [Introduction to Operating Systems (CSC360)](/csc360/)*   
@@ -54,6 +56,7 @@ Teaching
 
 Selected Honors and Awards
 ------
+- **2026**: **Canada Postdoctoral Research Award (CPRA)**, awarded by the Natural Sciences and Engineering Research Council of Canada (NSERC)
 - **2025**: **First Prize Award** in the IEEE Young Professionals Victoria 3-minute thesis (3MT) competition
 <!-- [certificate](/awards/3MT-award 2025.pdf) -->
 - **2025**: **Nominated for ECSS Excellence in Teaching Award**  

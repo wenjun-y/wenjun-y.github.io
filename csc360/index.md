@@ -4,12 +4,8 @@ layout: none
 <head>
   <title>CSC360: Operating Systems</title>
   <style>
-    body { 
-      /* font-family: Georgia, 'Times New Roman', serif;  */
-      /* line-height: 1.6; 
-      max-width: 800px; 
-      margin: 20px auto; 
-      padding: 0 15px; */
+    body {
+      margin: 20px 40px;
     }
     h2 { 
       text-align: center;
@@ -23,10 +19,12 @@ layout: none
   </style>
 </head>
 
+<div style="margin: 20px 40px;" markdown="1">
+
 ## CSC360: Operating Systems
 
 <p style="text-align: center;"> <b>University of Victoria <br>
-Fall 2025</b></p>
+Summer 2026</b></p>
 
 <!--
 <p style="text-align: center; color: red; font-weight: bold; font-size: 28px;">Note: This website is still under construction and will keep updating.</p>
@@ -34,7 +32,7 @@ Fall 2025</b></p>
 
 
 ---
-**Course Outline:** [here](https://course-outlines.uvic.ca/ban/course-outlines/public-outline?banner_term=202509&subject=CSC&course_number=360)
+**Course Outline:** [here](https://course-outlines.uvic.ca/ban/course-outlines/public-outline?banner_term=202605&subject=CSC&course_number=360)
 
 **Overview:** Introduction to Operating Systems; Operating system structures; Concurrent processes and programming; CPU scheduling; Deadlock; Memory management and virtual memory; File systems and storage management.
 
@@ -44,23 +42,22 @@ Fall 2025</b></p>
 
 **Instructor:** [Dr. Wenjun Yang](/about.html), ECS627, wenjunyang at uvic dot ca.
 
-**Office Hours:** MR 10:15am – 11:15am, or by appointment.
+**Office Hours:** W 12:00 PM – 1:00 PM, or by appointment.
 
 **TAs:**
-- Jinwei (Clark) Zhao (clarkzjw at uvic dot ca)
+- Mostafa Abdollahi ( abdolahi68 at uvic. dot ca)
 - Quanwei Zhang (quanweizhang at uvic dot ca)
-- Johnathan Warawa (johnnyw3 at uvic dot ca)
+- Ava Birtwistle (avabirtwistle at uvic dot ca)
 
 **Lectures:**
-* (A01/2) MR 8:30–9:50am, DSB C118
-* (A03/4) 11:30am–12:50pm, CLE A224
+* (A01/2) TWF 10:30–11:20 AM, ECS 125
 
-[Tentative Lecture Schedule and Notes](360-schedule.html)
+[Tentative Lecture Schedule and Notes](schedule.html)
 
 **Tutorials:**
-* (T01) T 8:30–9:20am, MAC D115
-* (T02) W 1:30–2:20pm, COR B129
-* (T03) W 11:30am–12:20pm, DSB C118
+* (T01) T 11:30 AM – 12:20 PM, CLE A127
+* (T02) W 12:30 PM - 01:20 PM, CLE A329 
+* (T03) F 12:30 PM - 01:20 PM, CLE A329
 
 
 <br>
@@ -68,22 +65,62 @@ Fall 2025</b></p>
 <table style="text-align: left;" border="1" cellpadding="5">
   <thead>
     <tr>
-      <th colspan="2">Assessment for CSC360:</th>
+      <th colspan="3">Assessment for CSC360:</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Assignments</td>
-      <td>55%</td>
+      <td>Assignment 1</td>
+      <td>5%</td>
+      <td>Due May 27</td>
     </tr>
     <tr>
-      <td>Midterm</td>
-      <td>45%</td>
+      <td>Assignment 2</td>
+      <td>15%</td>
+      <td>Due June 3</td>
+    </tr>
+    <tr>
+      <td>Assignment 3</td>
+      <td>15%</td>
+      <td>Due June 30</td>
+    </tr>
+    <tr>
+      <td>Assignment 4</td>
+      <td>15%</td>
+      <td>Due July 31</td>
+    </tr>
+    <tr>
+      <td><b>Assignments Total</b></td>
+      <td><b>50%</b></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Midterm 1</td>
+      <td>10%</td>
+      <td>June 5</td>
+    </tr>
+    <tr>
+      <td>Midterm 2</td>
+      <td>10%</td>
+      <td>July 3</td>
+    </tr>
+    <tr>
+      <td>Final Exam</td>
+      <td>30%</td>
+      <td>TBD</td>
+    </tr>
+    <tr>
+      <td><b>Exams Total</b></td>
+      <td><b>50%</b></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
+<p><i>Note: A minimum score of 50% on the final exam is required to pass the course.</i></p>
 <br>
 
 ---
 
 ***Feedback:*** *I am willing to hear from you. Please let me know your questions, suggestions, comments, opinion, and expectation on the lectures, assignments, projects, and the course.*
+
+</div>

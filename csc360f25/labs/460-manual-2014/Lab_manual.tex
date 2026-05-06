@@ -1,0 +1,78 @@
+\documentclass[12pt]{report}
+%\usepackage{balance}
+
+\usepackage[dvips]{graphicx}
+\graphicspath{{figs/}}
+\DeclareGraphicsExtensions{.eps,.ps}
+
+\usepackage{enumerate}
+\usepackage{url}
+\newcommand{\urlBiBTeX}[1]{\url{#1}}
+
+\begin{document}
+\begin{titlepage}%Produces the titlepage
+\begin{center}
+
+\large
+
+\bf{Department of Electrical and Computer Engineering}
+\vspace{1cm}
+
+\Large
+\textbf{Laboratory Manual\\ for \\CENG460  Communications Networks}
+\bigskip
+\bigskip
+\bigskip
+\vfill
+\large
+By
+
+\bigskip
+
+\normalsize
+
+ Ruonan Zhang, Emad Shihab, Zhe Yang, Xuan Wang,  Lei Zheng, and Lin Cai
+
+
+\vspace{3.5in}
+
+\small
+Copyright 2012 University of Victoria. All rights reserved
+
+\vfill
+
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\newpage   
+\thispagestyle{empty}
+\noindent The knowledge acquired in the CENG460 course and the labs should NOT be misused under any circumstances.  Please carefully read and follow
+the Policy on ``Responsible Use for Information Technology Services'' (available at ``http://www.uvic.ca/6030'') for using Information
+technology services at the University of Victoria.\\
+
+\noindent Please refer to the CENG 460 lab web page for supplementary lab information. \\
+
+\noindent  This lab manual has adopted several contents from the labs suggested in~\cite{umass, Matthews04,Tanenbaum10,  topdown}. \\
+
+
+\newpage
+
+
+\pagenumbering{roman}
+\tableofcontents
+
+\pagenumbering{arabic}
+
+\include{Lab_1}
+
+\include{Lab_2}
+
+\include{Lab_3}
+
+\include{Lab_4}
+
+\include{Lab_Bibliography}
+
+\end{document}
